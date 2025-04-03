@@ -1,0 +1,282 @@
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index: 1000; 
+}
+
+header.scrollagem{
+    background: #fff;
+    padding: 20px 1%;
+
+}
+
+header.scrollagem a, header.scrollagem i{
+    color: black;
+}
+
+
+
+header i{ 
+    font-size: 30PX;
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.banner{
+    height: 100vh;
+    background-image: url(../img/fundo111.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    padding-top: 120px; 
+}
+
+.btn-contato{
+    text-align: center;
+}
+
+.btn-contato button{
+    margin: 3px 0;
+    width: 125px;
+    height: 30px;
+    border: 0;
+    background-color: rgba(86, 101, 117, 0.562);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+.fundob{
+    border-radius: 30px;
+    display: flex;
+    margin-top: 30px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 25%;
+    left: 10%;
+    width: 30%;
+    height: 40%;
+    padding: 50px;
+    color: white;
+    z-index: 10; 
+}
+
+.fundob h1{
+    text-shadow: 2px 2px 4px black;
+    font-size: 40px;
+    text-align: justify;
+    font-weight: 200;
+}
+
+.fundob h2{
+    text-shadow: 2px 2px 4px black;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+/* --------------- SECTION PROJETOS ---------------*/
+
+main{
+    background-color: rgba(187, 187, 187, 0.747);
+}
+
+.projetos{
+    border-radius: 20px;
+    background-color: rgb(230, 230, 230);
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.flexx{
+
+    gap: 60px;
+    padding: 30px;
+    display: flex;
+}
+
+.textoc{
+    margin: 0 auto;
+    font-size: 20px;
+    width: 25%;
+    text-align: justify;
+    padding-top: 50px;
+
+}
+
+.imagemc{
+    gap: 15px;
+    display: flex;
+}
+
+.imagemc img{
+    border-radius: 20px;
+    height: 600px;
+    transition: .2s;
+}
+
+.imagemc img:hover{
+    transform: scale(1.02);
+    transition: .2s;
+}
+
+.imagemc figure figcaption{
+    text-shadow: 1px 1px 2px black;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* --------------- SECTION PROJETOS ---------------*/
+
+/* --------------- SECTION BENEFICIOS ---------------*/
+
+.beneficioss{
+    border-radius: 20px;
+    background-color: rgb(230, 230, 230);
+    width: 80%;
+    margin: 50px auto;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.beneficioss h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.flexBeneficios{
+    margin: 20px auto;
+    width: 80%;
+}
+
+.cards_3_galeria{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.cards_3_galeria h2{
+    font-size: 15px;
+}
+
+.cards_3_galeria i{
+    font-size: 25px;
+}
+
+.cards_3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* --------------- SECTION BENEFICIOS ---------------*/
+
+/* --------------- SECTION DUVIDAS ---------------*/
+
+.duvidas{
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.perguntas h1{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.perguntas p{
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* --------------- SECTION DUVIDAS ---------------*/
+
+/* --------------- FOOTER CONTATO ---------------*/
+
+.footer{
+    background-color: rgb(138, 138, 138);
+}
+
+
+.listaFooter{
+    width: 90%;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+.listaFooter ul{
+    list-style: none;  
+
+}
+
+.listaFooter ul li{
+    align-items: center;
+    padding: 5px;
+    gap: 15px;
+    display: flex;
+}
+
+.listaFooter ul a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.listaFooter ul a:hover{
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+}
+
+/* --------------- FOOTER CONTATO ---------------*/
+
